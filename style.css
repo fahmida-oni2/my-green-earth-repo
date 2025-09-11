@@ -6,3 +6,9 @@
 
 
 
+
+@media screen and (max-width: 640px){
+    .banner{
+    flex-direction: column;
+}
+}
