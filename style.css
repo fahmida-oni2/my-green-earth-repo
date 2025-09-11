@@ -8,7 +8,10 @@
 
 
 @media screen and (max-width: 640px){
-    .banner{
+    .banner,.campaign-content{
     flex-direction: column;
-}
+}  
+    .campaign-content{
+      padding: 0px;
+    }
 }
