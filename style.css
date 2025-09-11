@@ -8,10 +8,16 @@
 
 
 @media screen and (max-width: 640px){
-    .banner,.campaign-content{
+    .banner,.campaign-content , .impact-item {
     flex-direction: column;
 }  
     .campaign-content{
       padding: 0px;
     }
+    .impact-item .btn {
+      width: 50%
+      margin-top: 30px;
+      margin: 0px;
+    }
+    
 }
