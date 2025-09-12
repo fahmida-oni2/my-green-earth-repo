@@ -17,5 +17,5 @@ For arrays, elements can be assigned directly.
 For objects, properties can be extracted by name
 
 5) Explain template literals in ES6. How are they different from string concatenation?
-Answer: Template literals use backticks ` to create strings in ES6.
+Answer: Template literals use backticks  to create strings in ES6.
 They allow embedding expressions with `${}`.They also support multi-line strings directly which makes the string more cleaner and readable than string concatenation.
