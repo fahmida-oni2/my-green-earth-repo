@@ -47,7 +47,7 @@
   </div>
 </div>
         </nav>
-        <section class="banner flex bg-[#CFF0DC] p-3 items-center justify-evenly">
+        <section class="banner flex bg-[#CFF0DC] pt-3 items-center justify-evenly">
          <div><img src="./assets/hero-leaf1.png" alt="" class="h-auto"></div>
          <div class="text-center space-y-3">
             <h1 class="font-bold text-3xl">Plant a Tree, Grow a Future</h1>
@@ -67,7 +67,7 @@
          <span class="loading loading-bars loading-xl"></span>
          </section>
   
-       <div class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-5">
+       <div class="tree-section w-11/12 mx-auto py-10 grid grid-cols-12 gap-5">
         <div id="tree-container" class=" col-span-2  text-start font-bold block  space-y-2"><h2 class="mb-2">Categories</h2>
             <button id="all-category" onclick="loadAllCategory()" class="btn btn-ghost w-full text-left px-3 py-2 hover:bg-green-200 plant-buttons active">All Category</button>
         </div>
@@ -134,20 +134,21 @@
     <footer class="bg-[#14532D]">
       <p class="text-center text-white p-5">© 2025 Green Earth. All Rights Reserved.</p>
     </footer>
-    
+    <!-- modals -->
     <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <div id="modal-container" class="space-y-2">
 
     <div class="modal-action">
       <form method="dialog">
-        <!-- if there is a button in form, it will close the modal -->
+
         <button class="btn">Close</button>
       </form>
     </div>
   </div>
 </dialog>
-    <script src="./script.js"></script>
+    
+<script src="./script.js"></script>
     
 </body>
 </html>

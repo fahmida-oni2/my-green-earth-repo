@@ -94,7 +94,7 @@ const displayProducts = (products) => {
   manageSpinner(false);
 };
 
-displayProducts([]); // shows "Select a category"
+displayProducts([]); 
 
 
 const displayTrees = (trees) => {

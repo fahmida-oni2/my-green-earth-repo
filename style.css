@@ -19,5 +19,7 @@
       margin-top: 30px;
       margin: 0px;
     }
-    
+   #product-container , .tree-section{
+    grid-template-columns: repeat(1,1fr);
+   }
 }
