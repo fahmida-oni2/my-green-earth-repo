@@ -1,3 +1,9 @@
+
+Live link:https://earth-assignment.netlify.app/
+
+
+
+
 1) What is the difference between var, let, and const?
 Answer: Var: function-scoped , global and can be reassigned outside a function.
         let: Block-scoped,not global and exists only within the block it’s defined.
