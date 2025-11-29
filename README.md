@@ -6,7 +6,7 @@
 
 **Technology Used:**
 1.Javascript <br>
-2.CSS3 <br>
+2.Tailwind CSS <br>
 3.Daisy UI <br>
 4.HTML5
 
